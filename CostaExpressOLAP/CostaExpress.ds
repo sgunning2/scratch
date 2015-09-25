@@ -1,0 +1,23 @@
+﻿<DataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xsi:type="RelationalDataSource" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CostaExpress</ID>
+  <Name>CostaExpress</Name>
+  <CreatedTimestamp>2013-06-10T11:53:50.343333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-09-22T22:26:39.106667Z</LastSchemaUpdate>
+  <ConnectionString>Provider=SQLNCLI10.1;Data Source=WHBCOSCUBEDB01;Integrated Security=SSPI;Initial Catalog=CostaExpressDW</ConnectionString>
+  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+  <ImpersonationInfo>
+    <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+    <Account>AD\svc-bisqladmin</Account>
+    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+  </ImpersonationInfo>
+  <Timeout>PT0S</Timeout>
+  <DataSourcePermissions>
+    <DataSourcePermission>
+      <ID>DataSourcePermission</ID>
+      <Name>DataSourcePermission</Name>
+      <CreatedTimestamp>2013-08-22T11:50:07.553333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2015-09-22T22:26:39.31Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+    </DataSourcePermission>
+  </DataSourcePermissions>
+</DataSource>

@@ -1,0 +1,29 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1fe3a9cc-5018-495a-9776-895cbbdca0cc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CostaExpressOLAP</ID>
+  <Name>CostaExpressOLAP</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <EstimatedSize>5275247853</EstimatedSize>
+  <Language>2057</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <DatabasePermissions>
+    <DatabasePermission dwd:design-time-name="ae83becf-72a5-412b-b5bd-40e0573e97d0">
+      <ID>DatabasePermission</ID>
+      <Name>DatabasePermission</Name>
+      <CreatedTimestamp>2013-06-10T11:53:50.826667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2015-09-22T22:26:56.033333Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Process>true</Process>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+      <Administer>true</Administer>
+    </DatabasePermission>
+  </DatabasePermissions>
+</Database>

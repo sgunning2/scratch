@@ -1,0 +1,955 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Service Item</ID>
+  <Name>Service Item</Name>
+  <CreatedTimestamp>2013-06-10T11:53:50.47Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-09-22T22:26:45.8Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1700" scrolltop="-4220" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8916" y="13282" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ServiceItem" left="20" top="-3704" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3810" height="11694" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000e20e0000ae2d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ServiceItem" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1700</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4220</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3704</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="159">
+            <Shape Id="Machine ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Machine ID" />
+                <Attribute Id="Active YN" />
+                <Attribute Id="Birth Date" />
+                <Attribute Id="Concession Desc" />
+                <Attribute Id="End Date" />
+                <Attribute Id="Expected YN" />
+                <Attribute Id="Invoice Date From" />
+                <Attribute Id="Invoice Date To" />
+                <Attribute Id="Machine Desc" />
+                <Attribute Id="Price Card Code" />
+                <Attribute Id="Ship To Code" />
+                <Attribute Id="Start Date" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Brand Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand Name" />
+              </Attributes>
+              <Position x="223" y="20" />
+            </Shape>
+            <Shape Id="Brand Short Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand Short Code" />
+              </Attributes>
+              <Position x="223" y="68" />
+            </Shape>
+            <Shape Id="Brand Code 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand Code 1" />
+              </Attributes>
+              <Position x="223" y="116" />
+            </Shape>
+            <Shape Id="Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Country" />
+              </Attributes>
+              <Position x="223" y="164" />
+            </Shape>
+            <Shape Id="Sell To No" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sell To No" />
+              </Attributes>
+              <Position x="223" y="212" />
+            </Shape>
+            <Shape Id="Bill To No" Expanded="false">
+              <Attributes>
+                <Attribute Id="Bill To No" />
+              </Attributes>
+              <Position x="427" y="212" />
+            </Shape>
+            <Shape Id="Bill To Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Bill To Name" />
+              </Attributes>
+              <Position x="631" y="212" />
+            </Shape>
+            <Shape Id="Sell To Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sell To Name" />
+              </Attributes>
+              <Position x="427" y="260" />
+            </Shape>
+            <Shape Id="Machine No" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine No" />
+              </Attributes>
+              <Position x="223" y="308" />
+            </Shape>
+            <Shape Id="Concession Unit Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Concession Unit Code" />
+              </Attributes>
+              <Position x="427" y="308" />
+            </Shape>
+            <Shape Id="Location" Expanded="false">
+              <Attributes>
+                <Attribute Id="Location" />
+              </Attributes>
+              <Position x="427" y="356" />
+            </Shape>
+            <Shape Id="Machine Type Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Machine Type Code" />
+              </Attributes>
+              <Position x="427" y="404" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>Version</Name>
+      <Value>101</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2015-09-25T06:59:41.663333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>dvCostaExpress</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission>
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>2013-08-22T11:50:07.896667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2015-09-22T22:26:46.05Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>2057</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Machine ID</ID>
+      <Name>Machine ID</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>4012</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>MachineID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>MachineID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Machine No</AttributeID>
+          <Name>Machine No</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Machine Desc</AttributeID>
+          <Name>Machine Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Price Card Code</AttributeID>
+          <Name>Price Card Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Ship To Code</AttributeID>
+          <Name>Ship To Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Active YN</AttributeID>
+          <Name>Active YN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Start Date</AttributeID>
+          <Name>Start Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>End Date</AttributeID>
+          <Name>End Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Invoice Date From</AttributeID>
+          <Name>Invoice Date From</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Invoice Date To</AttributeID>
+          <Name>Invoice Date To</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sell To No</AttributeID>
+          <Name>Sell To No</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Concession Desc</AttributeID>
+          <Name>Concession Unit Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Expected YN</AttributeID>
+          <Name>Expected YN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Birth Date</AttributeID>
+          <Name>Birth Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Brand Code 1</AttributeID>
+          <Name>Brand Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Brand Short Code</AttributeID>
+          <Name>Brand Short Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Brand Name</AttributeID>
+          <Name>Brand Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Machine No</ID>
+      <Name>Machine No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>MachineNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>MachineNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Machine Type Code</AttributeID>
+          <Name>Machine Type Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Location</AttributeID>
+          <Name>Location</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Concession Unit Code</AttributeID>
+          <Name>Concession Unit Code</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Machine Desc</ID>
+      <Name>Machine Desc</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>MachineDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>MachineDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Concession Unit Code</ID>
+      <Name>Concession Unit Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>ConcessionUnitCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>ConcessionUnitCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Machine Type Code</ID>
+      <Name>Machine Type Code</Name>
+      <EstimatedCount>16</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>MachineTypeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>MachineTypeCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Price Card Code</ID>
+      <Name>Price Card Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>PriceCardCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>PriceCardCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Ship To Code</ID>
+      <Name>Ship To Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>ShipToCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>ShipToCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Location</ID>
+      <Name>Location</Name>
+      <EstimatedCount>3760</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>Location</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>Location</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Active YN</ID>
+      <Name>Active YN</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>ActiveYN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>ActiveYN</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Start Date</ID>
+      <Name>Start Date</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>StartDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>StartDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>End Date</ID>
+      <Name>End Date</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>EndDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>EndDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Invoice Date From</ID>
+      <Name>Invoice Date From</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>InvoiceDateFrom</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>InvoiceDateFrom</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Invoice Date To</ID>
+      <Name>Invoice Date To</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>InvoiceDateTo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>InvoiceDateTo</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sell To No</ID>
+      <Name>Sell To No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>SellToNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>SellToNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Sell To Name</AttributeID>
+          <Name>Sell To Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bill To No</AttributeID>
+          <Name>Bill To No</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brand Name</ID>
+      <Name>Brand Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>14</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BrandName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>14</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BrandName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Concession Desc</ID>
+      <Name>Concession Unit Desc</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>ConcessionDesc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>ConcessionDesc</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Expected YN</ID>
+      <Name>Expected YN</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>ExpectedYN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>ExpectedYN</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bill To No</ID>
+      <Name>Bill To No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BillToNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BillToNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Bill To Name</AttributeID>
+          <Name>Bill To Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Birth Date</ID>
+      <Name>Birth Date</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BirthDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BirthDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>Country</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bill To Name</ID>
+      <Name>Bill To Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BillToName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BillToName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sell To Name</ID>
+      <Name>Sell To Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>SellToName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>SellToName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brand Code 1</ID>
+      <Name>Brand Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BrandCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BrandCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brand Short Code</ID>
+      <Name>Brand Short Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_ServiceItem</TableID>
+            <ColumnID>BrandShortCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_ServiceItem</TableID>
+          <ColumnID>BrandShortCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Machine Type Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Machine Type Code</ID>
+          <Name>Machine Type Code</Name>
+          <SourceAttributeID>Machine Type Code</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Machine No</ID>
+          <Name>Machine No</Name>
+          <SourceAttributeID>Machine No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Location Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Location</ID>
+          <Name>Location</Name>
+          <SourceAttributeID>Location</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Machine No</ID>
+          <Name>Machine No</Name>
+          <SourceAttributeID>Machine No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 3</ID>
+      <Name>Brand Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Brand Name</ID>
+          <Name>Brand Name</Name>
+          <SourceAttributeID>Brand Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Brand Short Code</ID>
+          <Name>Brand Short Code</Name>
+          <SourceAttributeID>Brand Short Code</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Concession Unit Code</ID>
+          <Name>Concession Unit Code</Name>
+          <SourceAttributeID>Concession Unit Code</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Machine No</ID>
+          <Name>Machine No</Name>
+          <SourceAttributeID>Machine No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>INTL Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Bill To No</ID>
+          <Name>Bill To No</Name>
+          <SourceAttributeID>Bill To No</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Bill To Name</ID>
+          <Name>Bill To Name</Name>
+          <SourceAttributeID>Bill To Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To No</ID>
+          <Name>Sell To No</Name>
+          <SourceAttributeID>Sell To No</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To Name</ID>
+          <Name>Sell To Name</Name>
+          <SourceAttributeID>Sell To Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Brand Code</ID>
+          <Name>Brand Code</Name>
+          <SourceAttributeID>Brand Code 1</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Location</ID>
+          <Name>Location</Name>
+          <SourceAttributeID>Location</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Machine No</ID>
+          <Name>Machine No</Name>
+          <SourceAttributeID>Machine No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+</Dimension>

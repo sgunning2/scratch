@@ -1,0 +1,1916 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Customer Card</ID>
+  <Name>Customer Card</Name>
+  <CreatedTimestamp>2013-06-10T11:53:50.486667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-09-22T22:26:42.51Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2732" scrolltop="-9260" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10081" y="16431" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="CustomerCard" left="-1514" top="-8229" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="13731" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000780e0000a3350000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CustomerCard" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2732</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9260</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1514</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-8229</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="152">
+            <Shape Id="Customer ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Customer ID" />
+                <Attribute Id="Address1" />
+                <Attribute Id="Address2" />
+                <Attribute Id="Bill To Email" />
+                <Attribute Id="Brand Code" />
+                <Attribute Id="Region" />
+                <Attribute Id="International YN" />
+                <Attribute Id="Invoice Group Name" />
+                <Attribute Id="Invoice Group No" />
+                <Attribute Id="Non Invoiceable YN" />
+                <Attribute Id="Phone" />
+                <Attribute Id="Post Code" />
+                <Attribute Id="Sales Person Code" />
+                <Attribute Id="Sales Person Name" />
+                <Attribute Id="Trade Code" />
+                <Attribute Id="Trade Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Trd Sun Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sun Close" />
+              </Attributes>
+              <Position x="215" y="20" />
+            </Shape>
+            <Shape Id="Trd Sun Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sun Open HR" />
+              </Attributes>
+              <Position x="215" y="68" />
+            </Shape>
+            <Shape Id="Trd Sun Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sun Open" />
+              </Attributes>
+              <Position x="215" y="116" />
+            </Shape>
+            <Shape Id="Trd Sat Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sat Close" />
+              </Attributes>
+              <Position x="215" y="164" />
+            </Shape>
+            <Shape Id="Trd Sat Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sat Open HR" />
+              </Attributes>
+              <Position x="215" y="212" />
+            </Shape>
+            <Shape Id="Trd Sat Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Sat Open" />
+              </Attributes>
+              <Position x="215" y="260" />
+            </Shape>
+            <Shape Id="Trd Fri Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Fri Close" />
+              </Attributes>
+              <Position x="215" y="308" />
+            </Shape>
+            <Shape Id="Trd Fri Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Fri Open HR" />
+              </Attributes>
+              <Position x="215" y="356" />
+            </Shape>
+            <Shape Id="Trd Fri Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Fri Open" />
+              </Attributes>
+              <Position x="215" y="404" />
+            </Shape>
+            <Shape Id="Trd Thurs Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Thurs Close" />
+              </Attributes>
+              <Position x="215" y="452" />
+            </Shape>
+            <Shape Id="Trd Thurs Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Thurs Open HR" />
+              </Attributes>
+              <Position x="215" y="500" />
+            </Shape>
+            <Shape Id="Trd Thurs Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Thurs Open" />
+              </Attributes>
+              <Position x="215" y="548" />
+            </Shape>
+            <Shape Id="Trd Wed Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Wed Close" />
+              </Attributes>
+              <Position x="215" y="596" />
+            </Shape>
+            <Shape Id="Trd Wed Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Wed Open HR" />
+              </Attributes>
+              <Position x="215" y="644" />
+            </Shape>
+            <Shape Id="Trd Wed Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Wed Open" />
+              </Attributes>
+              <Position x="215" y="692" />
+            </Shape>
+            <Shape Id="Trd Tues Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Tues Close" />
+              </Attributes>
+              <Position x="215" y="740" />
+            </Shape>
+            <Shape Id="Trd Tues Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Tues Open HR" />
+              </Attributes>
+              <Position x="215" y="788" />
+            </Shape>
+            <Shape Id="Trd Tues Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Tues Open" />
+              </Attributes>
+              <Position x="215" y="836" />
+            </Shape>
+            <Shape Id="Trd Mon Close" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Mon Close" />
+              </Attributes>
+              <Position x="215" y="884" />
+            </Shape>
+            <Shape Id="Trd Mon Open HR" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Mon Open HR" />
+              </Attributes>
+              <Position x="215" y="932" />
+            </Shape>
+            <Shape Id="Trd Mon Open" Expanded="false">
+              <Attributes>
+                <Attribute Id="Trd Mon Open" />
+              </Attributes>
+              <Position x="215" y="980" />
+            </Shape>
+            <Shape Id="Sell To Number Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sell To Number Name" />
+              </Attributes>
+              <Position x="215" y="1028" />
+            </Shape>
+            <Shape Id="Bill To Number Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Bill To Number Name" />
+              </Attributes>
+              <Position x="410" y="1028" />
+            </Shape>
+            <Shape Id="Bill To Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Bill To Name" />
+              </Attributes>
+              <Position x="215" y="1076" />
+            </Shape>
+            <Shape Id="Sell To Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Sell To Name" />
+              </Attributes>
+              <Position x="215" y="1124" />
+            </Shape>
+            <Shape Id="Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Country" />
+              </Attributes>
+              <Position x="215" y="1172" />
+            </Shape>
+            <Shape Id="County" Expanded="false">
+              <Attributes>
+                <Attribute Id="County" />
+              </Attributes>
+              <Position x="215" y="1220" />
+            </Shape>
+            <Shape Id="BEA Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="BEA Code" />
+              </Attributes>
+              <Position x="215" y="1268" />
+            </Shape>
+            <Shape Id="BEA Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="BEA Name" />
+              </Attributes>
+              <Position x="410" y="1268" />
+            </Shape>
+            <Shape Id="BEA Name Region" Expanded="false">
+              <Attributes>
+                <Attribute Id="BEA Name Region" />
+              </Attributes>
+              <Position x="605" y="1268" />
+            </Shape>
+            <Shape Id="BEA Region" Expanded="false">
+              <Attributes>
+                <Attribute Id="BEA Region" />
+              </Attributes>
+              <Position x="800" y="1268" />
+            </Shape>
+            <Shape Id="City" Expanded="false">
+              <Attributes>
+                <Attribute Id="City" />
+              </Attributes>
+              <Position x="215" y="1316" />
+            </Shape>
+            <Shape Id="Sell To No" Expanded="true">
+              <Attributes>
+                <Attribute Id="Sell To No" />
+                <Attribute Id="Billto No" />
+              </Attributes>
+              <Position x="215" y="1364" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2015-09-25T06:59:44.736667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>dvCostaExpress</DataSourceViewID>
+  </Source>
+  <UnknownMember>Hidden</UnknownMember>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>2057</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Customer ID</ID>
+      <Name>Customer ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>CustomerID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <NullProcessing>ZeroOrBlank</NullProcessing>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>CustomerID</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Sell To No</AttributeID>
+          <Name>Sell To No</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Address1</AttributeID>
+          <Name>Address1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Address2</AttributeID>
+          <Name>Address2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Phone</AttributeID>
+          <Name>Phone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Post Code</AttributeID>
+          <Name>Post Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>City</AttributeID>
+          <Name>City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>BEA Code</AttributeID>
+          <Name>BEA Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>International YN</AttributeID>
+          <Name>International YN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Non Invoiceable YN</AttributeID>
+          <Name>Non Invoiceable YN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trade Code</AttributeID>
+          <Name>Trade Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trade Name</AttributeID>
+          <Name>Trade Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sales Person Code</AttributeID>
+          <Name>Sales Person Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sales Person Name</AttributeID>
+          <Name>Sales Person Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Brand Code</AttributeID>
+          <Name>Brand Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Invoice Group Name</AttributeID>
+          <Name>Invoice Group Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Invoice Group No</AttributeID>
+          <Name>Invoice Group No</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bill To Email</AttributeID>
+          <Name>Bill To Email</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Region</AttributeID>
+          <Name>Engineer Region</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>County</AttributeID>
+          <Name>County</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Country</AttributeID>
+          <Name>Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sell To Name</AttributeID>
+          <Name>Sell To Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Bill To Name</AttributeID>
+          <Name>Bill To Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Sell To Number Name</AttributeID>
+          <Name>Sell To Number Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Mon Open</AttributeID>
+          <Name>Trd Mon Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Mon Open HR</AttributeID>
+          <Name>Trd Mon Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Mon Close</AttributeID>
+          <Name>Trd Mon Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Tues Open</AttributeID>
+          <Name>Trd Tues Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Tues Open HR</AttributeID>
+          <Name>Trd Tues Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Tues Close</AttributeID>
+          <Name>Trd Tues Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Wed Open</AttributeID>
+          <Name>Trd Wed Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Wed Open HR</AttributeID>
+          <Name>Trd Wed Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Wed Close</AttributeID>
+          <Name>Trd Wed Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Thurs Open</AttributeID>
+          <Name>Trd Thurs Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Thurs Open HR</AttributeID>
+          <Name>Trd Thurs Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Thurs Close</AttributeID>
+          <Name>Trd Thurs Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Fri Open</AttributeID>
+          <Name>Trd Fri Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Fri Open HR</AttributeID>
+          <Name>Trd Fri Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Fri Close</AttributeID>
+          <Name>Trd Fri Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sat Open</AttributeID>
+          <Name>Trd Sat Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sat Open HR</AttributeID>
+          <Name>Trd Sat Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sat Close</AttributeID>
+          <Name>Trd Sat Close</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sun Open</AttributeID>
+          <Name>Trd Sun Open</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sun Open HR</AttributeID>
+          <Name>Trd Sun Open HR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Trd Sun Close</AttributeID>
+          <Name>Trd Sun Close</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sell To No</ID>
+      <Name>Sell To No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>SellToNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>SellToNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Billto No</AttributeID>
+          <Name>Bill To No</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sell To Name</ID>
+      <Name>Sell To Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>SellToName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>SellToName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Billto No</ID>
+      <Name>Bill To No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BillToNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BillToNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sell To Number Name</ID>
+      <Name>Sell To Number Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>73</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>SellToNumberName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>73</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>SellToNumberName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Bill To Number Name</AttributeID>
+          <Name>Bill To Number Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bill To Name</ID>
+      <Name>Bill To Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BillToName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BillToName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bill To Number Name</ID>
+      <Name>Bill To Number Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>73</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BillToNumberName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>73</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BillToNumberName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Country</ID>
+      <Name>Country</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>Country</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Address1</ID>
+      <Name>Address1</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Address1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>Address1</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Address2</ID>
+      <Name>Address2</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Address2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>Address2</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Phone</ID>
+      <Name>Phone</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Phone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>Phone</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Post Code</ID>
+      <Name>Post Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>PostCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>PostCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>County</ID>
+      <Name>County</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>County</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>County</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>City</ID>
+      <Name>City</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>City</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>City</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BEA Code</ID>
+      <Name>BEA Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BEACode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BEACode</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>BEA Name</AttributeID>
+          <Name>BEA Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BEA Name</ID>
+      <Name>BEA Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BEAName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BEAName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>BEA Name Region</AttributeID>
+          <Name>BEA Name Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BEA Name Region</ID>
+      <Name>BEA Name Region</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BEANameRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BEANameRegion</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>BEA Region</AttributeID>
+          <Name>BEA Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>BEA Region</ID>
+      <Name>BEA Region</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BEARegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BEARegion</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>International YN</ID>
+      <Name>International YN</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>InternationalYN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>InternationalYN</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Non Invoiceable YN</ID>
+      <Name>Non Invoiceable YN</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>NonInvoiceableYN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>NonInvoiceableYN</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trade Code</ID>
+      <Name>Trade Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TradeCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TradeCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trade Name</ID>
+      <Name>Trade Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TradeName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TradeName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sales Person Code</ID>
+      <Name>Sales Person Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>SalesPersonCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>SalesPersonCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Sales Person Name</ID>
+      <Name>Sales Person Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>SalesPersonName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>SalesPersonName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Brand Code</ID>
+      <Name>Brand Code</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BrandCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BrandCode</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Invoice Group Name</ID>
+      <Name>Invoice Group Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>InvoiceGroupName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>InvoiceGroupName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Invoice Group No</ID>
+      <Name>Invoice Group No</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>InvoiceGroupNo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>5</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>InvoiceGroupNo</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Bill To Email</ID>
+      <Name>Bill To Email</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>1000</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>BillToEmail</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>1000</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>BillToEmail</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Region</ID>
+      <Name>Engineer Region</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>Region</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>Region</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Mon Open</ID>
+      <Name>Trd Mon Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdMonOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdMonOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Mon Open HR</ID>
+      <Name>Trd Mon Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdMonOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdMonOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Mon Close</ID>
+      <Name>Trd Mon Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdMonClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdMonClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Tues Open</ID>
+      <Name>Trd Tues Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdTuesOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdTuesOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Tues Open HR</ID>
+      <Name>Trd Tues Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdTuesOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdTuesOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Tues Close</ID>
+      <Name>Trd Tues Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdTuesClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdTuesClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Wed Open</ID>
+      <Name>Trd Wed Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdWedOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdWedOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Wed Open HR</ID>
+      <Name>Trd Wed Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdWedOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdWedOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Wed Close</ID>
+      <Name>Trd Wed Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdWedClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdWedClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Thurs Open</ID>
+      <Name>Trd Thurs Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdThursOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdThursOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Thurs Open HR</ID>
+      <Name>Trd Thurs Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdThursOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdThursOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Thurs Close</ID>
+      <Name>Trd Thurs Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdThursClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdThursClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Fri Open</ID>
+      <Name>Trd Fri Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdFriOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdFriOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Fri Open HR</ID>
+      <Name>Trd Fri Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdFriOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdFriOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Fri Close</ID>
+      <Name>Trd Fri Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdFriClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdFriClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sat Open</ID>
+      <Name>Trd Sat Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSatOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSatOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sat Open HR</ID>
+      <Name>Trd Sat Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSatOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSatOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sat Close</ID>
+      <Name>Trd Sat Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSatClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSatClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sun Open</ID>
+      <Name>Trd Sun Open</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSunOpen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSunOpen</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sun Open HR</ID>
+      <Name>Trd Sun Open HR</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSunOpenHR</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSunOpenHR</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Trd Sun Close</ID>
+      <Name>Trd Sun Close</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_CustomerCard</TableID>
+            <ColumnID>TrdSunClose</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_CustomerCard</TableID>
+          <ColumnID>TrdSunClose</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Number Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Bill To Number Name</ID>
+          <Name>Bill To Number Name</Name>
+          <SourceAttributeID>Bill To Number Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To Number Name</ID>
+          <Name>Sell To Number Name</Name>
+          <SourceAttributeID>Sell To Number Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To No</ID>
+          <Name>Sell To No</Name>
+          <SourceAttributeID>Sell To No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Name Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Bill To Name</ID>
+          <Name>Bill To Name</Name>
+          <SourceAttributeID>Bill To Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To Name</ID>
+          <Name>Sell To Name</Name>
+          <SourceAttributeID>Sell To Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To No</ID>
+          <Name>Sell To No</Name>
+          <SourceAttributeID>Sell To No</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 3</ID>
+      <Name>BEA Region Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>BEA Region</ID>
+          <Name>BEA Region</Name>
+          <SourceAttributeID>BEA Region</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>BEA Name Region</ID>
+          <Name>BEA Name Region</Name>
+          <SourceAttributeID>BEA Name Region</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>BEA Code</ID>
+          <Name>BEA Code</Name>
+          <SourceAttributeID>BEA Code</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 2</ID>
+      <Name>Geographic Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>County</ID>
+          <Name>County</Name>
+          <SourceAttributeID>County</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>City</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Sell To Number Name</ID>
+          <Name>Sell To Number Name</Name>
+          <SourceAttributeID>Sell To Number Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 4</ID>
+      <Name>Monday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Mon Open HR</ID>
+          <Name>Trd Mon Open HR</Name>
+          <SourceAttributeID>Trd Mon Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Mon Open</ID>
+          <Name>Trd Mon Open</Name>
+          <SourceAttributeID>Trd Mon Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Mon Close</ID>
+          <Name>Trd Mon Close</Name>
+          <SourceAttributeID>Trd Mon Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 5</ID>
+      <Name>Tuesday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Tues Open HR</ID>
+          <Name>Trd Tues Open HR</Name>
+          <SourceAttributeID>Trd Tues Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Tues Open</ID>
+          <Name>Trd Tues Open</Name>
+          <SourceAttributeID>Trd Tues Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Tues Close</ID>
+          <Name>Trd Tues Close</Name>
+          <SourceAttributeID>Trd Tues Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 6</ID>
+      <Name>Wednesday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Wed Open HR</ID>
+          <Name>Trd Wed Open HR</Name>
+          <SourceAttributeID>Trd Wed Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Wed Open</ID>
+          <Name>Trd Wed Open</Name>
+          <SourceAttributeID>Trd Wed Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Wed Close</ID>
+          <Name>Trd Wed Close</Name>
+          <SourceAttributeID>Trd Wed Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 7</ID>
+      <Name>Thursday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Thurs Open HR</ID>
+          <Name>Trd Thurs Open HR</Name>
+          <SourceAttributeID>Trd Thurs Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Thurs Open</ID>
+          <Name>Trd Thurs Open</Name>
+          <SourceAttributeID>Trd Thurs Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Thurs Close</ID>
+          <Name>Trd Thurs Close</Name>
+          <SourceAttributeID>Trd Thurs Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 8</ID>
+      <Name>Friday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Fri Open HR</ID>
+          <Name>Trd Fri Open HR</Name>
+          <SourceAttributeID>Trd Fri Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Fri Open</ID>
+          <Name>Trd Fri Open</Name>
+          <SourceAttributeID>Trd Fri Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Fri Close</ID>
+          <Name>Trd Fri Close</Name>
+          <SourceAttributeID>Trd Fri Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 9</ID>
+      <Name>Saturday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Sat Open HR</ID>
+          <Name>Trd Sat Open HR</Name>
+          <SourceAttributeID>Trd Sat Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Sat Open</ID>
+          <Name>Trd Sat Open</Name>
+          <SourceAttributeID>Trd Sat Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Sat Close</ID>
+          <Name>Trd Sat Close</Name>
+          <SourceAttributeID>Trd Sat Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 10</ID>
+      <Name>Sunday Trading</Name>
+      <DisplayFolder>Trading Hierarchy</DisplayFolder>
+      <Levels>
+        <Level>
+          <ID>Trd Sun Open HR</ID>
+          <Name>Trd Sun Open HR</Name>
+          <SourceAttributeID>Trd Sun Open HR</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Sun Open</ID>
+          <Name>Trd Sun Open</Name>
+          <SourceAttributeID>Trd Sun Open</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Trd Sun Close</ID>
+          <Name>Trd Sun Close</Name>
+          <SourceAttributeID>Trd Sun Close</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+</Dimension>

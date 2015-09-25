@@ -1,0 +1,125 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>10.50.4000.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>CostaExpressOLAP.database</Name>
+    <FullPath>CostaExpressOLAP.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>CostaExpress.cube</Name>
+      <FullPath>CostaExpress.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CostaExpress.partitions</Name>
+          <FullPath>CostaExpress.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Alarm Status.dim</Name>
+      <FullPath>Alarm Status.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CE Email Address.dim</Name>
+      <FullPath>CE Email Address.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer Card.dim</Name>
+      <FullPath>Customer Card.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Drink Type.dim</Name>
+      <FullPath>Drink Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fault Type.dim</Name>
+      <FullPath>Fault Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoice Item.dim</Name>
+      <FullPath>Invoice Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoice Run.dim</Name>
+      <FullPath>Invoice Run.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Load Summary.dim</Name>
+      <FullPath>Load Summary.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mechanical Engineer.dim</Name>
+      <FullPath>Mechanical Engineer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mechanical Priority.dim</Name>
+      <FullPath>Mechanical Priority.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mechanical Symptom.dim</Name>
+      <FullPath>Mechanical Symptom.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Mechanical User.dim</Name>
+      <FullPath>Mechanical User.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Prices.dim</Name>
+      <FullPath>Prices.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Refusal Code.dim</Name>
+      <FullPath>Refusal Code.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Service Item.dim</Name>
+      <FullPath>Service Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Stock Item.dim</Name>
+      <FullPath>Stock Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time Calcs.dim</Name>
+      <FullPath>Time Calcs.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time Of Day.dim</Name>
+      <FullPath>Time Of Day.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>CostaExpress.ds</Name>
+      <FullPath>CostaExpress.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>dvCostaExpress.dsv</Name>
+      <FullPath>dvCostaExpress.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Role.role</Name>
+      <FullPath>Role.role</FullPath>
+    </ProjectItem>
+  </Roles>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <DeploymentServerEdition>Enterprise</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

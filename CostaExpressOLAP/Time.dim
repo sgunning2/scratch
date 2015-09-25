@@ -1,0 +1,889 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Time</ID>
+  <Name>Time</Name>
+  <CreatedTimestamp>2013-06-10T11:53:50.516667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-09-22T22:26:46.596667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2105" scrolltop="-5067" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9287" y="13018" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="dimTime" left="20" top="-3969" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="10716" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000dc290000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimTime" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2105</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5067</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3969</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="130">
+            <Shape Id="Time Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Time Key" />
+                <Attribute Id="DOW" />
+                <Attribute Id="Month Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date" />
+              </Attributes>
+              <Position x="187" y="20" />
+            </Shape>
+            <Shape Id="Cal Month Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cal Month Name" />
+                <Attribute Id="Cal Month" />
+              </Attributes>
+              <Position x="355" y="20" />
+            </Shape>
+            <Shape Id="Cal Quarter Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cal Quarter Name" />
+                <Attribute Id="Cal Quarter" />
+              </Attributes>
+              <Position x="522" y="20" />
+            </Shape>
+            <Shape Id="Cal Year Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cal Year Name" />
+                <Attribute Id="Cal Year" />
+              </Attributes>
+              <Position x="690" y="20" />
+            </Shape>
+            <Shape Id="Cal Week Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Cal Week Name" />
+                <Attribute Id="Cal Week" />
+              </Attributes>
+              <Position x="355" y="92" />
+            </Shape>
+            <Shape Id="Fin Week Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Fin Week Name" />
+                <Attribute Id="Fin Week" />
+              </Attributes>
+              <Position x="355" y="164" />
+            </Shape>
+            <Shape Id="Fin Period Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Fin Period Name" />
+                <Attribute Id="Fin Period" />
+              </Attributes>
+              <Position x="522" y="164" />
+            </Shape>
+            <Shape Id="Fin Quarter Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Fin Quarter Name" />
+                <Attribute Id="Fin Quarter" />
+              </Attributes>
+              <Position x="690" y="164" />
+            </Shape>
+            <Shape Id="Fin Year Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="Fin Year Name" />
+                <Attribute Id="Fin Year" />
+              </Attributes>
+              <Position x="857" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2015-09-25T06:59:38.713333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding">
+    <DataSourceViewID>dvCostaExpress</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <ErrorConfiguration>
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission>
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>2013-08-22T11:50:08.223333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2015-09-22T22:26:47.11Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>2057</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute>
+      <ID>Time Key</ID>
+      <Name>Time Key</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>1456</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>TimeKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>TimeKey</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Date</AttributeID>
+          <Name>Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>DOW</AttributeID>
+          <Name>DOW</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Month Name</AttributeID>
+          <Name>Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>Date</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Fin Week Name</AttributeID>
+          <Name>Fin Week Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cal Week Name</AttributeID>
+          <Name>Cal Week Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cal Month Name</AttributeID>
+          <Name>Cal Month Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Year</ID>
+      <Name>Fin Year</Name>
+      <Type>FiscalYears</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Period</ID>
+      <Name>Fin Period</Name>
+      <Type>FiscalMonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinPeriod</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinPeriod</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Week</ID>
+      <Name>Fin Week</Name>
+      <Type>FiscalWeekOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinWeek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinWeek</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>DOW</ID>
+      <Name>DOW</Name>
+      <Type>DayOfWeek</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>DOW</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>DOW</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Quarter</ID>
+      <Name>Fin Quarter</Name>
+      <Type>FiscalQuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Week</ID>
+      <Name>Cal Week</Name>
+      <Type>WeekOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalWeek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalWeek</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Quarter</ID>
+      <Name>Cal Quarter</Name>
+      <Type>QuarterOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Year</ID>
+      <Name>Cal Year</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Month</ID>
+      <Name>Cal Month</Name>
+      <Type>MonthOfYear</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalMonth</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Month Name</ID>
+      <Name>Month Name</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>MonthName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>MonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Year Name</ID>
+      <Name>Fin Year Name</Name>
+      <Type>FiscalYears</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinYearName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Fin Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Fin Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Fin Year</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Period Name</ID>
+      <Name>Fin Period Name</Name>
+      <Type>FiscalMonths</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinPeriod</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinPeriodName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Fin Quarter Name</AttributeID>
+          <Name>Fin Quarter Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Fin Period</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Fin Period</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Fin Period</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Week Name</ID>
+      <Name>Fin Week Name</Name>
+      <Type>FiscalWeeks</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinWeek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinWeekName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Fin Period Name</AttributeID>
+          <Name>Fin Period Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Fin Week</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Fin Week</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Fin Week</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Fin Quarter Name</ID>
+      <Name>Fin Quarter Name</Name>
+      <Type>FiscalQuarters</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>FinQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>FinQuarterName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Fin Year Name</AttributeID>
+          <Name>Fin Year Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Fin Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Fin Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Fin Quarter</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Month Name</ID>
+      <Name>Cal Month Name</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalMonthName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cal Quarter Name</AttributeID>
+          <Name>Cal Quarter Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cal Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cal Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Cal Month</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Year Name</ID>
+      <Name>Cal Year Name</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalYearName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cal Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cal Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Cal Year</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Quarter Name</ID>
+      <Name>Cal Quarter Name</Name>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalQuarterName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cal Year Name</AttributeID>
+          <Name>Cal Year Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship>
+          <AttributeID>Cal Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cal Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Cal Quarter</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute>
+      <ID>Cal Week Name</ID>
+      <Name>Cal Week Name</Name>
+      <Type>Weeks</Type>
+      <KeyColumns>
+        <KeyColumn>
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalYearName</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding">
+            <TableID>dbo_dimTime</TableID>
+            <ColumnID>CalWeek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn>
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding">
+          <TableID>dbo_dimTime</TableID>
+          <ColumnID>CalWeekName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship>
+          <AttributeID>Cal Week</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cal Week</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeKey</OrderBy>
+      <OrderByAttributeID>Cal Week</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy>
+      <ID>Hierarchy</ID>
+      <Name>Financial Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Fin Year Name</ID>
+          <Name>Fin Year Name</Name>
+          <SourceAttributeID>Fin Year Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Fin Quarter Name</ID>
+          <Name>Fin Quarter Name</Name>
+          <SourceAttributeID>Fin Quarter Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Fin Period Name</ID>
+          <Name>Fin Period Name</Name>
+          <SourceAttributeID>Fin Period Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Fin Week Name</ID>
+          <Name>Fin Week Name</Name>
+          <SourceAttributeID>Fin Week Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy>
+      <ID>Hierarchy 1</ID>
+      <Name>Calendar Hierarchy</Name>
+      <Levels>
+        <Level>
+          <ID>Cal Year Name</ID>
+          <Name>Cal Year Name</Name>
+          <SourceAttributeID>Cal Year Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Cal Quarter Name</ID>
+          <Name>Cal Quarter Name</Name>
+          <SourceAttributeID>Cal Quarter Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Cal Month Name</ID>
+          <Name>Cal Month Name</Name>
+          <SourceAttributeID>Cal Month Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Cal Week Name</ID>
+          <Name>Cal Week Name</Name>
+          <SourceAttributeID>Cal Week Name</SourceAttributeID>
+        </Level>
+        <Level>
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+</Dimension>
